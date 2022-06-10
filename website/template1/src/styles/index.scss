@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: "Kusanagi";
+    src: local("Kusanagi"), url(../assets/fonts/kusanagi/Kusanagi.otf) format('otf'), url(../assets/fonts/kusanagi/Webfont/Kusanagi.woff) format('woff');
+}
+
+.font-kusanagi {
+    font-family: "Kusanagi", Helvetica, Arial;
+}
+
+body,
+html {
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
